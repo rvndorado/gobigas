@@ -1,0 +1,11 @@
+.rating {
+    &__starpicker {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__starlabel {
+        display: flex;
+        justify-content: center;  
+    }
+}

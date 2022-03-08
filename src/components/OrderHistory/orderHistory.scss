@@ -1,0 +1,22 @@
+.orderhistory {
+    margin-top: 30px;
+
+    &__header {
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 10px;
+    }
+
+    &__table {
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+        &--header {
+            display: flex;
+            justify-content: center;
+            font-weight: 500;
+            letter-spacing: 8px;
+            font-size: 18px;
+        }
+    }
+}

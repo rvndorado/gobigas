@@ -1,0 +1,119 @@
+.checkout {
+    margin-top: 50px;
+    margin-bottom: 120px;
+
+    &__list {
+        &--items {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            overflow-y: auto;
+        }
+    
+        &--item {
+            display: flex;
+            justify-content: space-evenly;
+            height: 100px;
+            margin-bottom: 30px;
+        }
+    
+        &--details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        &--name {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    
+        &--image {
+            height: 100px;
+        }
+
+        &--summary {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &--subtotal {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__information {
+
+        &--name {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &--button {
+            background-color: #806000 !important;
+            color: #FFF !important;
+            font-weight: 500 !important;
+            letter-spacing: 10px;
+            height: 45px;
+        }
+
+    }
+
+    &__breadcrumb {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    &__payment {
+        &--details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &--header {
+            display: flex;
+            justify-content: space-between;     
+        }
+
+        &--card {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
+
+
+.card-header {
+    background-color: #EFEFEF !important;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 450px) {
+    .checkout {
+        &__information {
+    
+            &--button {
+                letter-spacing: 3px;
+                font-size: 14px !important;
+            }
+    
+        }
+
+        &__payment {
+            &--details {
+                span {
+                    font-size: 14px;
+                }
+                font-size: 14px;
+            }
+        }
+    }
+  }
